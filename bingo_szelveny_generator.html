@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>BINGO szelvény generátor</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.3.min.js" integrity="sha384-98GDGJ0kOMCUMUePhksaQ/GYgB3+NH9h996V88sh3aOiUNX3N+fLXAtry6xctSZ6" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="852d10a4-5be5-4773-9411-ed412c46cd0a" data-root-id="1172"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1236">
+          {"6b044ba1-c25e-486a-82e3-7ab1edc17fbc":{"roots":{"references":[{"attributes":{"js_property_callbacks":{"change:value":[{"id":"1158"}]},"options":["K\u00e9rj\u00fck v\u00e1lassz!","B\u00f3di Attila","Cseh Borb\u00e1la","Kalup Csilla","Kriskovics Levente","Ordasi Andr\u00e1s","P\u00e1l Andr\u00e1s","Szak\u00e1ts R\u00f3bert","Seli B\u00e1lint","S\u00f3dor \u00c1d\u00e1m","Vida Kriszti\u00e1n"],"title":"K\u00f6zjegyz\u0151: "},"id":"1157","type":"Select"},{"attributes":{"formatter":{"id":"1160"},"ticker":{"id":"1132"},"visible":false},"id":"1131","type":"LinearAxis"},{"attributes":{},"id":"1136","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":0},"x":{"field":"x"},"y":{"field":"y"}},"id":"1144","type":"Scatter"},{"attributes":{},"id":"1132","type":"BasicTicker"},{"attributes":{"children":[[{"id":"1154"},0,0],[{"id":"1157"},1,0],[{"id":"1120"},2,0],[{"id":"1150"},3,0]]},"id":"1169","type":"GridBox"},{"attributes":{"axis":{"id":"1131"},"ticker":null},"id":"1134","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1140"}]},"id":"1139","type":"Toolbar"},{"attributes":{"axis":{"id":"1135"},"dimension":1,"ticker":null},"id":"1138","type":"Grid"},{"attributes":{"data_source":{"id":"1119"},"glyph":{"id":"1143"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1144"},"selection_glyph":null,"view":{"id":"1146"}},"id":"1145","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"1162"},"ticker":{"id":"1136"},"visible":false},"id":"1135","type":"LinearAxis"},{"attributes":{},"id":"1160","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":0},"x":{"field":"x"},"y":{"field":"y"}},"id":"1143","type":"Scatter"},{"attributes":{},"id":"1164","type":"UnionRenderers"},{"attributes":{"args":{"date":{"id":"1149"}},"code":"\n    var currentdate = new Date(); \n    var datetime = \"Gener\u00e1l\u00e1s d\u00e1tuma: \" + currentdate.getFullYear() + \"/\"\n                    + (currentdate.getMonth()+1)  + \"/\" \n                    + currentdate.getDate() + \" @ \"  \n                    + currentdate.getHours() + \":\"  \n                    + currentdate.getMinutes() + \":\" \n                    + currentdate.getSeconds();\n                    \n    date.text = datetime   \n    \n"},"id":"1152","type":"CustomJS"},{"attributes":{},"id":"1162","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1119"}},"id":"1146","type":"CDSView"},{"attributes":{"below":[{"id":"1131"},{"id":"1149"},{"id":"1153"},{"id":"1156"}],"center":[{"id":"1134"},{"id":"1138"},{"id":"1147"}],"left":[{"id":"1135"}],"output_backend":"webgl","plot_height":800,"plot_width":800,"renderers":[{"id":"1145"}],"title":{"id":"1121"},"toolbar":{"id":"1139"},"toolbar_location":null,"x_range":{"id":"1123"},"x_scale":{"id":"1127"},"y_range":{"id":"1125"},"y_scale":{"id":"1129"}},"id":"1120","subtype":"Figure","type":"Plot"},{"attributes":{"toolbar":{"id":"1170"},"toolbar_location":"above"},"id":"1171","type":"ToolbarBox"},{"attributes":{"data":{"names":["\ud83c\udd7e","\ud83c\udd76","\ud83c\udd7d","\ud83c\udd78","\ud83c\udd71","","","","","","","","","","","","","\ud83d\udd2d","","","","","","","","","","","",""],"x":[0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5],"y":[0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4]},"selected":{"id":"1165"},"selection_policy":{"id":"1164"}},"id":"1119","type":"ColumnDataSource"},{"attributes":{"toolbars":[{"id":"1139"}],"tools":[{"id":"1140"}]},"id":"1170","type":"ProxyToolbar"},{"attributes":{"text":"J\u00e1t\u00e9kos neve: ","text_font_size":{"value":"12pt"}},"id":"1153","type":"Title"},{"attributes":{"args":{"ds":{"id":"1119"}},"code":"\n    function* shuffle(array) {\n\n        var i = array.length;\n\n        while (i--) {\n            yield array.splice(Math.floor(Math.random() * (i+1)), 1)[0];\n        }\n\n    }\n  \n    // const inds = ds.selected.indices;\n    const d = ds.data;\n    // var ym = 0\n\n    //if (inds.length == 0)\n    //   return;\n\n    // B\n    var ranNumsB = shuffle([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);\n\n    for (var i = 9; i &lt; 30; i=i+5) {\n        d['names'][i] = ranNumsB.next().value;    // get ith random number from array\n    }\n    \n    // I\n    var ranNumsI = shuffle([16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]);\n    \n    for (var i = 8; i &lt; 30; i=i+5) {\n        d['names'][i] = ranNumsI.next().value;\n    }\n    // N\n    var ranNumsN = shuffle([31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]);\n    \n    for (var i = 7; i &lt; 30; i=i+5) {\n        if (i != 17)\n            d['names'][i] = ranNumsN.next().value;\n    }\n    // G\n    var ranNumsG = shuffle([46,47,48,49,50,51,52,53,54,55,56,57,58,59,60]);\n    \n    for (var i = 6; i &lt; 30; i=i+5) {\n        d['names'][i] = ranNumsG.next().value;\n    }\n    // O\n    var ranNumsO = shuffle([61,62,63,64,65,66,67,68,69,70,71,72,73,74,75]);\n    \n    for (var i = 5; i &lt; 30; i=i+5) {\n        d['names'][i] = ranNumsO.next().value;\n    }\n\n    //ym /= inds.length\n    //s2.data['ym'] = [ym, ym]\n\n    ds.change.emit();\n    //s2.change.emit();\n"},"id":"1151","type":"CustomJS"},{"attributes":{"children":[{"id":"1171"},{"id":"1169"}]},"id":"1172","type":"Column"},{"attributes":{"icon":null,"js_event_callbacks":{"button_click":[{"id":"1151"},{"id":"1152"}]},"label":"Generate"},"id":"1150","type":"Button"},{"attributes":{"name":"sdsdvdy"},"id":"1140","type":"SaveTool"},{"attributes":{"text":"Gener\u00e1l\u00e1s d\u00e1tuma: ","text_font_size":{"value":"12pt"}},"id":"1149","type":"Title"},{"attributes":{"end":6},"id":"1123","type":"Range1d"},{"attributes":{"js_property_callbacks":{"change:value":[{"id":"1155"}]},"options":["K\u00e9rj\u00fck v\u00e1lassz!","B\u00f3di Attila","Cseh Borb\u00e1la","Kalup Csilla","Kriskovics Levente","Ordasi Andr\u00e1s","P\u00e1l Andr\u00e1s","Szak\u00e1ts R\u00f3bert","Seli B\u00e1lint","S\u00f3dor \u00c1d\u00e1m","Vida Kriszti\u00e1n"],"title":"J\u00e1t\u00e9kos Neve: "},"id":"1154","type":"Select"},{"attributes":{"level":"glyph","source":{"id":"1119"},"text":{"field":"names"},"text_font_size":{"value":"40pt"},"x":{"field":"x"},"x_offset":{"value":30},"y":{"field":"y"},"y_offset":{"value":30}},"id":"1147","type":"LabelSet"},{"attributes":{},"id":"1165","type":"Selection"},{"attributes":{"text":"Piszk\u00e9stet\u0151i BINGO","text_font_size":{"value":"20pt"}},"id":"1121","type":"Title"},{"attributes":{"args":{"currentname":{"id":"1153"},"inputname":{"id":"1154"}},"code":"\n    currentname.text = 'J\u00e1t\u00e9kos neve: ' + inputname.value;\n"},"id":"1155","type":"CustomJS"},{"attributes":{},"id":"1129","type":"LinearScale"},{"attributes":{},"id":"1127","type":"LinearScale"},{"attributes":{"text":"K\u00f6zjegyz\u0151: ","text_font_size":{"value":"12pt"}},"id":"1156","type":"Title"},{"attributes":{"end":5},"id":"1125","type":"Range1d"},{"attributes":{"args":{"currentname":{"id":"1156"},"inputname":{"id":"1157"}},"code":"\n    currentname.text = 'K\u00f6zjegyz\u0151: ' + inputname.value;\n"},"id":"1158","type":"CustomJS"}],"root_ids":["1172"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1236').textContent;
+                  var render_items = [{"docid":"6b044ba1-c25e-486a-82e3-7ab1edc17fbc","root_ids":["1172"],"roots":{"1172":"852d10a4-5be5-4773-9411-ed412c46cd0a"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
